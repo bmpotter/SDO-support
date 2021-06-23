@@ -55,7 +55,17 @@
             "description": "Voucher to be imported",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/Voucher"
+              "type": "object",
+              "properties": {
+                "foo": {
+                  "type": "string",
+                  "description": "value for foo"
+                },
+                "bar": {
+                  "type": "string",
+                  "description": "value for bar"
+                }
+              }
             }
           },
           {
