@@ -293,7 +293,7 @@
         }
       }
     },
-    "/orgs/{org-id/keys": {
+    "/orgs/{org-id}/keys": {
       "post": {
         "tags": [
           "OCS-API"
@@ -382,7 +382,7 @@
       }
     }
   },
-  "/orgs/{org-id/keys/{key-name}": {
+  "/orgs/{org-id}/keys/{key-name}": {
     "get": {
       "tags": [
         "OCS-API"
